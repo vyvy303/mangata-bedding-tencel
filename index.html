@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html class="light" lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MANGATA | Nghệ Thuật Của Sự Nghỉ Ngơi</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;700&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#374a3e",
+              "on-secondary-fixed": "#032110",
+              "secondary-fixed-dim": "#adcfb5",
+              "tertiary": "#304c3a",
+              "outline-variant": "#c2c8c2",
+              "on-secondary": "#ffffff",
+              "primary-fixed-dim": "#b6ccbb",
+              "background": "#f9faf7",
+              "on-primary-container": "#c7ddcc",
+              "surface-container-high": "#e7e8e6",
+              "on-surface-variant": "#424843",
+              "surface-variant": "#e2e3e0",
+              "on-secondary-fixed-variant": "#304d39",
+              "on-surface": "#191c1b",
+              "surface-container-highest": "#e2e3e0",
+              "inverse-on-surface": "#f0f1ee",
+              "on-tertiary": "#ffffff",
+              "surface-dim": "#d9dad8",
+              "tertiary-fixed-dim": "#aeceb7",
+              "tertiary-container": "#476451",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-low": "#f3f4f1",
+              "inverse-surface": "#2e312f",
+              "error": "#ba1a1a",
+              "on-background": "#191c1b",
+              "error-container": "#ffdad6",
+              "on-primary": "#ffffff",
+              "on-error-container": "#93000a",
+              "surface-tint": "#4f6356",
+              "outline": "#737973",
+              "primary-fixed": "#d2e8d7",
+              "on-tertiary-fixed": "#042011",
+              "secondary-container": "#c6e8cd",
+              "on-secondary-container": "#4b6954",
+              "on-primary-fixed-variant": "#384b3f",
+              "tertiary-fixed": "#caead2",
+              "on-tertiary-container": "#bfdfc7",
+              "secondary-fixed": "#c9ebd0",
+              "on-primary-fixed": "#0d1f15",
+              "surface": "#f9faf7",
+              "surface-bright": "#f9faf7",
+              "primary-container": "#4e6255",
+              "inverse-primary": "#b6ccbb",
+              "surface-container": "#edeeeb",
+              "secondary": "#476550",
+              "on-error": "#ffffff",
+              "on-tertiary-fixed-variant": "#314d3b"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #f9faf7;
+            color: #191c1b;
+        }
+        .serif-text { font-family: 'Noto Serif', serif; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-background text-on-surface">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-stone-50/80 dark:bg-emerald-950/80 backdrop-blur-xl shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-8 py-6 max-w-full mx-auto">
+<div class="text-2xl font-serif tracking-widest text-emerald-900 dark:text-emerald-50 uppercase">MANGATA</div>
+<div class="hidden md:flex items-center space-x-12">
+<a class="text-emerald-900 dark:text-emerald-50 border-b-0 font-semibold hover:text-emerald-900 dark:hover:text-emerald-50 transition-colors duration-300" href="#">GA GIƯỜNG</a>
+<a class="text-emerald-800/70 dark:text-emerald-200/70 font-medium hover:text-emerald-900 dark:hover:text-emerald-50 transition-colors duration-300" href="#">GỐI</a>
+<a class="text-emerald-800/70 dark:text-emerald-200/70 font-medium hover:text-emerald-900 dark:hover:text-emerald-50 transition-colors duration-300" href="#">CHĂN BÔNG</a>
+<a class="text-emerald-800/70 dark:text-emerald-200/70 font-medium hover:text-emerald-900 dark:hover:text-emerald-50 transition-colors duration-300" href="#">CHẾ TÁC THỦ CÔNG</a>
+</div>
+<div class="flex items-center space-x-6 text-emerald-900 dark:text-emerald-50">
+<button class="material-symbols-outlined">search</button>
+<button class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-screen flex items-center pt-20 overflow-hidden bg-primary">
+<div class="absolute inset-0 z-0">
+<img alt="Luxurious Tencel Bedding Set in Ethereal Veridian" class="w-full h-full object-cover opacity-60" data-alt="A high-quality, professional photograph of a soft, silky Tencel bedding set in shades of deep sage green and mint, looking inviting and luxurious under soft, natural morning light." src="images/hero.png"/>
+<div class="absolute inset-0 bg-gradient-to-r from-primary/60 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-8 w-full">
+<div class="max-w-2xl">
+<h1 class="font-serif text-5xl md:text-7xl lg:text-8xl text-on-primary leading-tight tracking-tight mb-8">
+                Nghệ Thuật Của <br/><span class="italic">Sự Nghỉ Ngơi</span>
+</h1>
+<p class="font-body text-xl text-on-primary/90 mb-10 max-w-lg leading-relaxed">
+                Trải nghiệm thánh đường thanh khiết của Mangata. Được chế tác từ những sợi vải mịn màng nhất, bộ chăn ga của chúng tôi mời gọi bạn khám phá sự tĩnh lặng sâu sắc của bình minh.
+            </p>
+<button class="bg-primary-fixed text-on-primary-fixed px-10 py-5 rounded-xl font-medium tracking-wide hover:bg-primary-fixed-dim transition-all duration-500 ease-in-out shadow-lg">
+                KHÁM PHÁ BỘ SƯU TẬP
+            </button>
+</div>
+</div>
+</header>
+<!-- Product Categories -->
+<section class="py-32 bg-surface overflow-hidden">
+<div class="max-w-7xl mx-auto px-8 mb-16 flex justify-between items-end">
+<div>
+<span class="font-label text-xs tracking-[0.2em] text-primary uppercase mb-4 block">Những Món Đồ Thiết Yếu</span>
+<h2 class="font-serif text-4xl text-on-surface">Sự Thoải Mái Được Chọn Lọc</h2>
+</div>
+<div class="flex space-x-4">
+<div class="w-12 h-[2px] bg-secondary-fixed-dim"></div>
+<div class="w-24 h-[2px] bg-outline-variant/30"></div>
+</div>
+</div>
+<div class="flex overflow-x-auto no-scrollbar gap-12 px-8 pb-12">
+<!-- Sheets -->
+<div class="min-w-[400px] flex-shrink-0 group">
+<div class="aspect-[4/5] overflow-hidden rounded-xl bg-surface-container-low mb-6">
+<img alt="Premium Sheets" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Close up of high thread count white cotton sheets folded neatly with soft organic shadows and texture" src="images/sheets.webp"/>
+</div>
+<h3 class="font-serif text-2xl mb-2 text-on-surface uppercase">Ga Giường</h3>
+<p class="font-label text-xs tracking-widest text-on-surface-variant">COTTON SỢI DÀI CAO CẤP</p>
+</div>
+<!-- Pillows -->
+<div class="min-w-[400px] flex-shrink-0 mt-20 group">
+<div class="aspect-[1/1] overflow-hidden rounded-xl bg-surface-container-low mb-6">
+<img alt="Cloud-like Pillows" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Stacked plush white pillows against a neutral wall with minimalist styling and soft daylight" src="images/pillows.webp"/>
+</div>
+<h3 class="font-serif text-2xl mb-2 text-on-surface uppercase">Gối</h3>
+<p class="font-label text-xs tracking-widest text-on-surface-variant">LÔNG VŨ NGUỒN GỐC NHÂN ĐẠO</p>
+</div>
+<!-- Duvets -->
+<div class="min-w-[400px] flex-shrink-0 group">
+<div class="aspect-[4/5] overflow-hidden rounded-xl bg-surface-container-low mb-6">
+<img alt="Luxe Duvets" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A thick linen duvet rumpled artistically on a bed with soft sage green undertones and warm lighting" src="images/duvets.webp"/>
+</div>
+<h3 class="font-serif text-2xl mb-2 text-on-surface uppercase">Chăn Bông</h3>
+<p class="font-label text-xs tracking-widest text-on-surface-variant">ĐIỀU HÒA NHIỆT ĐỘ BỐN MÙA</p>
+</div>
+</div>
+</section>
+<!-- Craftsmanship & Materials -->
+<section class="py-32 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+<div class="lg:col-span-7 grid grid-cols-2 gap-4">
+<div class="pt-12">
+<img alt="Fabric detail" class="w-full h-auto rounded-xl shadow-sm" data-alt="Macro photography of organic linen fabric showing the intricate weave and natural texture in soft neutral tones" src="images/fabric_detail.webp"/>
+</div>
+<div>
+<img alt="Material close up" class="w-full h-auto rounded-xl shadow-sm" data-alt="Artisan hands gently touching a bolt of soft sage green silk fabric in a bright studio" src="images/material_close_up.webp"/>
+</div>
+</div>
+<div class="lg:col-span-5 bg-surface-container-lowest p-12 lg:-ml-24 z-10 shadow-sm rounded-xl">
+<span class="font-label text-xs tracking-[0.2em] text-primary uppercase mb-6 block">Triết Lý Của Chúng Tôi</span>
+<h2 class="font-serif text-4xl mb-8 leading-snug">Sự Bền Vững Trong Từng Sợi Vải</h2>
+<p class="font-body text-lg text-on-surface-variant leading-relaxed mb-8">
+                    Chúng tôi tin rằng sự sang trọng không nên đánh đổi bằng cái giá của trái đất. Nguyên liệu của chúng tôi được tuyển chọn từ những xưởng dệt di sản đề cao nông nghiệp tái sinh và lao động công bằng.
+                </p>
+<ul class="space-y-6">
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary mt-1">eco</span>
+<div>
+<h4 class="font-semibold text-primary">100% Chứng Nhận GOTS</h4>
+<p class="text-sm text-on-surface-variant">Mọi sợi bông đều được truy xuất nguồn gốc từ hạt giống đến tấm ga.</p>
+</div>
+</li>
+<li class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary mt-1">water_drop</span>
+<div>
+<h4 class="font-semibold text-primary">Nhuộm Không Chất Thải</h4>
+<p class="text-sm text-on-surface-variant">Hệ thống vòng kín của chúng tôi tái chế 99% lượng nước sử dụng.</p>
+</div>
+</li>
+</ul>
+<div class="mt-8 pt-8 border-t border-outline-variant/30">
+<p class="font-serif italic text-primary text-sm">— Nhà sáng lập &amp; Thiết kế, Bảo Vy</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Social Proof/Testimonials -->
+<section class="py-40 bg-surface">
+<div class="max-w-4xl mx-auto px-8 text-center">
+<span class="font-label text-xs tracking-[0.2em] text-primary uppercase mb-12 block">Trải Nghiệm</span>
+<div class="relative">
+<span class="material-symbols-outlined text-6xl text-primary/10 absolute -top-12 -left-8">format_quote</span>
+<blockquote class="font-serif text-3xl md:text-4xl text-on-surface leading-relaxed italic mb-12">
+                "Tôi chưa bao giờ nhận ra bộ chăn ga ảnh hưởng đến sự minh mẫn của tinh thần thế nào cho đến khi chuyển sang dùng Mangata. Cảm giác như đang ngủ trong một đám mây."
+            </blockquote>
+<div class="flex flex-col items-center">
+<div class="w-16 h-16 rounded-full bg-surface-container-highest mb-4 overflow-hidden">
+<img alt="Customer" class="w-full h-full object-cover" data-alt="Portrait of a serene woman with a natural look and soft lighting, smiling gently" src="images/customer.webp"/>
+</div>
+<cite class="font-label text-sm tracking-widest text-primary not-italic">ELARA VANCE — NHÀ THIẾT KẾ NỘI THẤT</cite>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter Signup -->
+<section class="py-24 px-8">
+<div class="max-w-7xl mx-auto bg-secondary-container rounded-[2rem] p-12 md:p-24 flex flex-col md:flex-row items-center justify-between gap-12">
+<div class="max-w-md">
+<h2 class="font-serif text-4xl text-on-secondary-container mb-6">Gia Nhập Thánh Đường</h2>
+<p class="font-body text-on-secondary-container opacity-80 leading-relaxed">
+                Nhận Nhật Ký hàng tháng của chúng tôi về các nghi thức nghỉ ngơi và quyền truy cập sớm vào các bộ sưu tập theo mùa giới hạn.
+            </p>
+</div>
+<form class="w-full max-w-md">
+<div class="flex flex-col space-y-4">
+<div class="relative">
+<input class="w-full bg-surface-container-lowest/50 border-none px-6 py-5 rounded-xl font-label text-xs tracking-widest placeholder:text-on-secondary-container/50 focus:ring-1 focus:ring-primary" placeholder="ĐỊA CHỈ EMAIL CỦA BẠN" type="email"/>
+</div>
+<button class="bg-primary text-on-primary px-8 py-5 rounded-xl font-medium tracking-widest hover:bg-tertiary transition-colors duration-300 uppercase" type="submit">
+                    Đăng ký
+                </button>
+</div>
+<p class="mt-4 text-[10px] uppercase tracking-widest text-on-secondary-container/60 text-center">QUYỀN RIÊNG TƯ LÀ THIÊNG LIÊNG. KHÔNG SPAM, MÃI MÃI.</p>
+</form>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-emerald-900 dark:bg-emerald-950 w-full pt-24 pb-12 flex flex-col items-center px-12 text-center">
+<div class="font-serif text-3xl tracking-tighter mb-4 text-stone-50">MANGATA</div>
+<div class="font-label text-[10px] tracking-[0.2em] text-stone-300/60 mb-8 uppercase text-center">Thiết kế bởi Bảo Vy</div>
+<div class="flex flex-wrap justify-center gap-8 mb-16">
+<a class="font-sans text-xs uppercase tracking-[0.1em] text-stone-300/80 hover:text-stone-50 transition-opacity duration-300" href="#">Bền Vững</a>
+<a class="font-sans text-xs uppercase tracking-[0.1em] text-stone-300/80 hover:text-stone-50 transition-opacity duration-300" href="#">Giao Hàng</a>
+<a class="font-sans text-xs uppercase tracking-[0.1em] text-stone-300/80 hover:text-stone-50 transition-opacity duration-300" href="#">Đổi Trả</a>
+<a class="font-sans text-xs uppercase tracking-[0.1em] text-stone-300/80 hover:text-stone-50 transition-opacity duration-300" href="#">Bảo Mật</a>
+<a class="font-sans text-xs uppercase tracking-[0.1em] text-stone-300/80 hover:text-stone-50 transition-opacity duration-300 underline underline-offset-4 text-stone-50" href="#">Nhật Ký</a>
+</div>
+<div class="w-full border-t border-white/10 mb-12"></div>
+<div class="font-sans text-xs uppercase tracking-[0.1em] text-stone-100 dark:text-stone-300">
+        © 2024 MANGATA BEDDING. NGHỆ THUẬT CỦA SỰ NGHỈ NGƠI.
+    </div>
+</footer>
+</body></html>
